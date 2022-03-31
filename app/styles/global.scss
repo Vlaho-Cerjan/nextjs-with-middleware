@@ -1,0 +1,30 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+body p, body span, body a {
+    color: rgba(0,0,32,0.48);
+    font-weight: 400;
+}
+
+body {
+    background-color: #f8f8fa !important;
+}
+
+body svg{
+    fill: rgba(0,0,32,0.48);
+}
+
+body.dark p, body.dark span, body.dark a {
+    color: #fff;
+    font-weight: 400;
+}
+
+body.dark svg{
+    fill: #fff;
+}
+
+body.dark{
+    background-color: #222222 !important;
+}

@@ -1,0 +1,54 @@
+{
+  "name": "next.js-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/roboto": "^4.5.3",
+    "@mui/icons-material": "^5.5.0",
+    "@mui/lab": "^5.0.0-alpha.73",
+    "@mui/material": "^5.5.0",
+    "@mui/styles": "^5.5.0",
+    "axios": "^0.26.1",
+    "next": "^12.1.2",
+    "next-auth": "^4.3.1",
+    "next-images": "^1.8.4",
+    "notistack": "^2.0.3",
+    "octokit": "^1.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.9",
+    "sharp": "^0.30.3",
+    "swr": "^1.0.1"
+  },
+  "devDependencies": {
+    "@octokit/types": "^6.34.0",
+    "@types/react": "^17.0.34",
+    "babel-plugin-styled-components": "^2.0.6",
+    "eslint-config-next": "latest",
+    "typescript": "^4.4.4"
+  },
+  "renovate": {
+    "extends": [
+      "config:js-app",
+      ":automergePatch",
+      ":automergeBranch",
+      ":automergePatch",
+      ":automergeBranch",
+      ":automergeLinters",
+      ":automergeTesters",
+      ":automergeTypes"
+    ],
+    "timezone": "Europe/Paris",
+    "schedule": [
+      "before 3am on Monday"
+    ]
+  }
+}
