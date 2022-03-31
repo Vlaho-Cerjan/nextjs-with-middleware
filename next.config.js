@@ -36,16 +36,6 @@ const securityHeaders = [
 
 
 module.exports = withImages({
-  env: {
-    SECRET_COOKIE_PASSWORD: "2gyZ3GDw3LHZQKDhPmPDL3sjREVRXPr8",
-    NEXTAUTH_SECRET: "948a58f47388304112d35823c5625a42",
-    NEXTAUTH_URL: "http://localhost:3000",
-    SECRET: "948a58f47388304112d35823c5625a42",
-    log: false,
-    flags: {
-        useNewHeader: false
-    }
-  },
   images: {
     disableStaticImages: true
   },
